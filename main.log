@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.7)  3 JAN 2022 18:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.7)  3 JAN 2022 19:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1302,79 +1302,75 @@ ver-sity of Copen-hagen
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 16.59204pt on input line 6.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.59998pt on input line 8.
+(Font)              scaled to size 9.59998pt on input line 7.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 9.59998pt on input line 8.
+(Font)              scaled to size 9.59998pt on input line 7.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/sc' will be
-(Font)              scaled to size 9.59998pt on input line 8.
+(Font)              scaled to size 9.59998pt on input line 7.
 LaTeX Font Info:    Trying to load font information for TS1+LinuxBiolinumT-TLF 
-on input line 10.
+on input line 9.
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/TS1LinuxBiolinumT-TLF.fd
 File: TS1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/L
 inuxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 10.
+(Font)              scaled to size 8.0pt on input line 9.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 9.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
+(Font)              scaled to size 8.0pt on input line 24.
 
-Underfull \hbox (badness 1325) in paragraph at lines 25--25
+Underfull \hbox (badness 1325) in paragraph at lines 60--60
 |[]\T1/LinuxBiolinumT-TLF/b/sc/9.59998 Central Trade-off: Ab-strac-tions, Per-f
 or-mance, Fault-
  []
 
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 7.30005pt on input line 26.
+(Font)              scaled to size 7.30005pt on input line 61.
 LaTeX Font Info:    Trying to load font information for OT1+LinuxLibertineT-TLF
- on input line 63.
+ on input line 98.
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/OT1LinuxLibertineT-TLF.fd
 File: OT1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for OT1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 63.
+(Font)              scaled to size 8.0pt on input line 98.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.2pt on input line 63.
+(Font)              scaled to size 6.2pt on input line 98.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 5.5pt on input line 63.
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 6
-3.
+(Font)              scaled to size 5.5pt on input line 98.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 9
+8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
 
 LaTeX Font Warning: Font shape `U/stmry/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 63.
+(Font)              size <5> substituted on input line 98.
 
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-63.
+98.
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxmia.fd
 File: untxmia.fd 2018/04/14 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-63.
+98.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsym.fd
 File: untxsym.fd 2015/03/20 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-63.
+98.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 10
-1.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 13
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./appendix/A1_system
-_design_principles.tex
-Underfull \hbox (badness 2020) in paragraph at lines 2--6
-[]\T1/LinuxBiolinumT-TLF/m/n/8 Summary for Ad-vanced Com-puter Systmes at Uni-v
-er-sity of Copen-hagen
- []
-
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 9.
-)
+_design_principles.tex)
 No file main.bbl.
 No file main.bbl.
 \tf@thm=\write8
@@ -1399,26 +1395,27 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 30054 strings out of 483107
- 534110 string characters out of 5964630
- 1025357 words of memory out of 5000000
- 44469 multiletter control sequences out of 15000+600000
- 597254 words of font info for 75 fonts, out of 8000000 for 9000
+ 30059 strings out of 483107
+ 534219 string characters out of 5964630
+ 1027357 words of memory out of 5000000
+ 44470 multiletter control sequences out of 15000+600000
+ 602706 words of font info for 77 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  72i,8n,99p,1193b,1160s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/us
-r/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texm
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
+e/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/share/texlive/texm
 f-dist/fonts/enc/dvips/libertine/lbtn_afusau.enc}{/usr/share/texlive/texmf-dist
 /fonts/enc/dvips/libertine/lbtn_jtta5h.enc}</usr/share/texlive/texmf-dist/fonts
 /type1/public/libertine/LinBiolinumT.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/libertine/LinBiolinumTB.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/couri
-er/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
->
-Output written on main.pdf (2 pages, 146364 bytes).
+pe1/public/libertine/LinBiolinumTI.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courie
+r/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+
+Output written on main.pdf (2 pages, 178015 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
+ 23 named destinations out of 1000 (max. 500000)
  29 words of extra memory for PDF output out of 10000 (max. 10000000)
 
