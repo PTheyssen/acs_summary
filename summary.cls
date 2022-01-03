@@ -1,0 +1,1 @@
+/home/pt/repos/latex-classes/summary.cls
