@@ -1,0 +1,245 @@
+\section{Communication}
+
+\paragraph{Learning goals}
+\begin{itemize}
+\item approaches to design \textbf{communication abstractions}
+  \begin{itemize}
+  \item transient vs. persistent
+  \item synchronous vs. asynchronous
+  \end{itemize}
+
+\item Design and implementation of
+  \textbf{message-oriented middleware} (MOM)
+
+\item organizing systems using \textbf{BASE} methodology
+
+\item relationship BASE to eventual consistency and
+  \textbf{CAP theorem} (it is impossible to provide
+  \textbf{C}onsistency, \textbf{A}vailability and
+  \textbf{P}artition Tolerance at the same time in distributed systems)
+
+\item alternative communication abstractions
+  \textbf{data streams} and \textbf{multicast / gossip}
+\end{itemize}
+
+
+\paragraph{Partitioning}
+\begin{itemize}
+\item use independent services to store different data
+\item Scalability and Availability improves but now coordination
+  necessary
+\item employ a communication abstraction
+\end{itemize}
+
+\paragraph{Recall: Protocols and Layering in the Internet}
+\begin{itemize}
+\item Layering
+  \begin{itemize}
+  \item System broken into vertical hierarchy of protocols
+  \item Service provided by one layer based solely
+    on service provided by layer below
+  \end{itemize}
+\item Internet model (here four layers)
+  \begin{itemize}
+  \item \textbf{Application} (e.g. HTTP, DNS, Email..)
+  \item \textbf{Transport} (TCP, UDP)
+  \item \textbf{Network} (IP)
+  \item \textbf{Link} (Ethernet)
+  \end{itemize}
+\end{itemize}
+
+\paragraph{Recall: Layers in Hosts and Routers}
+\begin{itemize}
+\item Link and network layers implemented everywhere
+\item End-to-end layer (i.e., transport and application)
+  implemented only at hosts
+\end{itemize}
+
+\paragraph{Different Type of Communication}
+\begin{itemize}
+\item Asynchronous: sender can immediately return after sending message
+  without waiting for any acknowledgments from other components
+
+\item Synchronous
+  \begin{itemize}
+  \item Synchronize at request submission (1)
+  \item Synchronize at request delivery (2)
+  \item Synchronize after being fully processed by recipient (3)
+  \end{itemize}
+
+\item \textbf{Transient} vs. \textbf{persistent} (temporal decoupling):
+  in persistent communication the sender can send a message
+  and go offline and the receiver can go online at any time and
+  gets the message that was send to him. Sender and receiver
+  can be independent in terms of operation time.
+\end{itemize}
+
+Examples:
+\begin{itemize}
+\item \textbf{Persistent} and \textbf{Asynchronous}: Email
+
+\item \textbf{Persistent} and \textbf{Synchronous}:
+  Message-queuing systems (1), \\
+  Online Chat (1) + (2)
+
+\item \textbf{Transient} and \textbf{Asynchronous}: UDP, Erlang
+
+\item \textbf{Transient} and \textbf{Synchronous}:
+  Asynchronous RPC (2), RPC (3)
+\end{itemize}
+
+\paragraph{RPC}
+\begin{itemize}
+\item Transparent and hidden communication
+\item Synchronous
+\item Transient
+\end{itemize}
+
+\paragraph{Message-Oriented}
+\begin{itemize}
+\item Explicit communication SEND/RECEIVE of point-to-point
+  messages
+\item Synchronous vs. Asynchronous
+\item Transient vs. Persistent
+\end{itemize}
+
+\paragraph{Message-Oriented Persistent Communication}
+\begin{itemize}
+\item Queues make sender and receiver loosely-coupled
+\item Modes of execution of sender/receiver
+  \begin{itemize}
+  \item both running
+  \item Sender running, Receiver passive
+  \item Sender passive, Receiver running
+  \item both passive
+  \end{itemize}
+\end{itemize}
+
+\paragraph{Queue Interface}
+\begin{itemize}
+\item Put: Put message in queue
+\item Get: Remove first message from queue (blocking)
+\item Poll: Check for message and remove first (non-blocking)
+\item Notify: Handler that is called when message is added
+\end{itemize}
+
+Source / destination are decoupled by \textbf{queue names}
+
+Multiple nodes (distributed system) inside message queuing
+system for high throughput communication
+\begin{itemize}
+\item \textbf{Relays:} store and forward messages
+\item \textbf{Brokers:} gateway to transform message formats
+\end{itemize}
+
+\paragraph{How to Employ Queues to Decouple System}
+Example Bank Transfer
+\begin{itemize}
+\item for scalability partition accounts onto different computers
+\item use message queue between two accounts
+\item for ensuring \textbf{atomicity} we need to use
+  commit protocol (two-phase commit)
+\end{itemize}
+
+
+\paragraph{The CAP theorem}
+\textbf{CAP Theorem:} A scalable service cannot achieve all three
+properties simultaneously
+\begin{itemize}
+\item Consistency: (i.e. atomicity) client perceives set of
+  operations occurred all at once
+\item Availability: every request must result in an intended
+  response
+\item Partition tolerance: operations terminate,
+  even if the network is partitioned
+\end{itemize}
+
+\paragraph{ACID}
+\begin{itemize}
+\item Using 2PC (two phase commit) guarantees atomicity (C in CAP)
+\item If 2PC is used, a transaction is not guaranteed to complete
+  in the case of network partition (either Abort or Blocked)
+  $\rightarrow$ we choose Consistency over Availability
+\item If an application can benefit from choosing A over C
+  we need different method (BASE). For example in a social network
+  its more important to have availability.
+\end{itemize}
+
+\paragraph{BASE}
+\begin{itemize}
+\item \textbf{Basically-Available:} only components affected by failure
+  become unavailable, not whole system
+\item \textbf{Soft-State:} a component's state may be out-of-date,
+  and events may be lost without affecting availability
+\item \textbf{Eventually Consistent:} under no further updates and no
+  failures, partitions converge to consistent state
+\end{itemize}
+
+\paragraph{A BASE Scenario}
+\begin{itemize}
+\item Users buy and sell items
+\item simple transaction for item exchange
+\end{itemize}
+
+Now we can \textbf{Decouple Item Exchange with Queues},
+by having one component taking care of transactions and
+the other one of users and updates to them. The following
+issued arise
+\begin{itemize}
+\item Tolerance to loss
+\item Idempotence
+\item Order: order can be implemented by a last transaction
+  pointer in the receiver, would be to restrictive on queue implementation
+  to ensure a order
+\end{itemize}
+
+\paragraph{Other Types of Communication Abstractions}
+\begin{itemize}
+\item \textbf{Stream-Oriented}
+  \begin{itemize}
+  \item Continuous vs. discrete
+  \item Asynchronous vs. Synchronous vs. Isochronous
+  \item Simple vs. complex
+  \end{itemize}
+\item \textbf{Multicast}
+  \begin{itemize}
+  \item SEND/RECEIVE over groups
+  \item Application-level multicast vs. gossip
+  \end{itemize}
+\end{itemize}
+
+\paragraph{Gossip}
+\begin{itemize}
+\item Epidemic protocols
+  \begin{itemize}
+  \item No central coordinator
+  \item nodes with new information are infected, and try to spread
+    information
+  \end{itemize}
+
+\item Anti-entropy approach
+  \begin{itemize}
+  \item Each node communicates with random node
+  \item Round: every node does the above
+  \item Pull vs. push vs. both
+  \item Spreading update form single to all nodes takes
+    O(log(N))
+  \end{itemize}
+
+\item \textbf{Gossiping}
+  \begin{itemize}
+  \item more similar to real world analogy
+  \item If P is updated it tells random Q
+  \item if Q already knows, P can lose interest
+    with some percentage
+  \item at some threshold P stops telling random nodes
+  \item Not guaranteed that all nodes get infected by update
+  \end{itemize}
+\end{itemize}
+
+
+
+
+% LocalWords:  middleware multicast onsistency vailability artition
+% LocalWords:  Scalability DNS TCP UDP RPC scalability atomicity
+% LocalWords:  scalable Idempotence Isochronous

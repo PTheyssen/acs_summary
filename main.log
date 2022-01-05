@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.7)  3 JAN 2022 19:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.7)  5 JAN 2022 13:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1127,14 +1127,14 @@ File: lstlang1.sty 2019/09/10 1.8c listings language file
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 ))
 Class revtex4-1 Info: Unrecognized LaTeX tabular. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 4.
+lass! (Proceeding with fingers crossed.) on input line 3.
 
 
 Class revtex4-1 Warning: Repair the float package.
 
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 4.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 4.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 4.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 3.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 3.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 3.
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count330
@@ -1143,58 +1143,58 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 4.
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 3.
 LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line
- 4.
+ 3.
  (/usr/share/texlive/texmf-dist/tex/latex/newtx/omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 3.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-4.
+3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 3.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 4.
+ 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 3.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 4.
+e 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/newtx/lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Trying to load font information for T1+LinuxBiolinumT-TLF o
-n input line 4.
+n input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/libertine/T1LinuxBiolinumT-TLF.fd
 File: T1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Lin
 uxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 4.
+(Font)              scaled to size 8.0pt on input line 3.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
@@ -1236,7 +1236,7 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box88
-Package hyperref Info: Link coloring ON on input line 4.
+Package hyperref Info: Link coloring ON on input line 3.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -1248,9 +1248,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count331
 )
-LaTeX Info: Redefining \ref on input line 4.
-LaTeX Info: Redefining \pageref on input line 4.
-LaTeX Info: Redefining \nameref on input line 4.
+LaTeX Info: Redefining \ref on input line 3.
+LaTeX Info: Redefining \pageref on input line 3.
+LaTeX Info: Redefining \nameref on input line 3.
 
 (./main.out) (./main.out)
 \@outlinefile=\write7
@@ -1290,7 +1290,7 @@ e
 \c@lstlisting=\count340
 
 ABD: EveryShipout initializing macros
-Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 4.
+Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 3.
 \openout3 = `mainNotes.bib'.
 
  (./chapters/01_Intro.tex
@@ -1369,53 +1369,116 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 13
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./appendix/A1_system
-_design_principles.tex)
+))
+(./chapters/02_Modularity_RPC_Performance.tex
+Underfull \hbox (badness 1817) in paragraph at lines 18--19
+\T1/LinuxBiolinumT-TLF/b/n/8 Problem: What hap-pens when mod-ules fail with (un
+-in-tended) er-
+ []
+
+<graphics/rpc.png, id=31, 308.8338pt x 109.6095pt>
+File: graphics/rpc.png Graphic file (type png)
+<use graphics/rpc.png>
+Package pdftex.def Info: graphics/rpc.png  used on input line 46.
+(pdftex.def)             Requested size: 247.06737pt x 87.6877pt.
+LaTeX Font Info:    Calculating math sizes for size <7.30005> on input line 48.
+
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 7.30005pt on input line 48.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 5.329pt on input line 48.
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 4.01505pt on input line 48.
+
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <4.01505> not available
+(Font)              size <5> substituted on input line 48.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
+ on input line 57.
+
+<graphics/naming.png, id=67, 679.53876pt x 648.4225pt>
+File: graphics/naming.png Graphic file (type png)
+<use graphics/naming.png>
+Package pdftex.def Info: graphics/naming.png  used on input line 137.
+(pdftex.def)             Requested size: 101.9264pt x 97.25917pt.
+
+Underfull \hbox (badness 1348) in paragraph at lines 179--179
+|[]\T1/LinuxBiolinumT-TLF/b/sc/9.59998 Motivation: Ab-strac-tions, Im-ple-men-t
+a-tion and Per-for-
+ []
+
+<graphics/fast_path.png, id=68, 1211.52625pt x 410.53375pt>
+File: graphics/fast_path.png Graphic file (type png)
+<use graphics/fast_path.png>
+Package pdftex.def Info: graphics/fast_path.png  used on input line 241.
+(pdftex.def)             Requested size: 242.30095pt x 82.10529pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.283   \end{itemize}
+                      [2 <./graphics/rpc.png> <./graphics/naming.png> <./graphi
+cs/fast_path.png>]) (./chapters/10_Communication.tex)pdfTeX warning (ext4): des
+tination with the same identifier (name{page.}) has been already used, duplicat
+e ignored
+<to be read again> 
+                   \relax 
+l.11 \cleardoublepage
+                      [3] (./appendix/A1_system_design_principles.tex)
+(./appendix/A2_common_faults.tex)
 No file main.bbl.
 No file main.bbl.
 \tf@thm=\write8
 \openout8 = `main.thm'.
 
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 12.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 16.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.12 \end{document}
-                    [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 12.
+l.16 \end{document}
+                    [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 16.
  (./main.aux)
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 12.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 16.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0A60C615FB166C23A1CBEF5DDBA3AB90;106.
+(rerunfilecheck)             Checksum: ADE8FCD211177171A7113C367FE2FF86;348.
 
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.5pt have occured.
+(Font)              up to 0.98495pt have occured.
 
  ) 
 Here is how much of TeX's memory you used:
- 30059 strings out of 483107
- 534219 string characters out of 5964630
- 1027357 words of memory out of 5000000
- 44470 multiletter control sequences out of 15000+600000
- 602706 words of font info for 77 fonts, out of 8000000 for 9000
+ 30173 strings out of 483107
+ 536435 string characters out of 5964630
+ 1034357 words of memory out of 5000000
+ 44529 multiletter control sequences out of 15000+600000
+ 618810 words of font info for 110 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 72i,8n,99p,1193b,1160s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texliv
-e/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/share/texlive/texm
-f-dist/fonts/enc/dvips/libertine/lbtn_afusau.enc}{/usr/share/texlive/texmf-dist
-/fonts/enc/dvips/libertine/lbtn_jtta5h.enc}</usr/share/texlive/texmf-dist/fonts
-/type1/public/libertine/LinBiolinumT.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/libertine/LinBiolinumTB.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/libertine/LinBiolinumTI.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/newtx/txsys.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courie
-r/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-
-Output written on main.pdf (2 pages, 178015 bytes).
+ 72i,9n,99p,1193b,1160s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/us
+r/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texm
+f-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/share/texlive/texmf-dist
+/fonts/enc/dvips/libertine/lbtn_afusau.enc}{/usr/share/texlive/texmf-dist/fonts
+/enc/dvips/libertine/lbtn_jtta5h.enc}</usr/share/texlive/texmf-dist/fonts/type1
+/public/newtx/LibertineMathMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/libertine/LinBiolinumT.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/libertine/LinBiolinumTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/libertine/LinBiolinumTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on main.pdf (4 pages, 397959 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
- 23 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 158 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
+ 54 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
