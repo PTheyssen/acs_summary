@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.7)  5 JAN 2022 13:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.7)  6 JAN 2022 13:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1376,7 +1376,7 @@ Underfull \hbox (badness 1817) in paragraph at lines 18--19
 -in-tended) er-
  []
 
-<graphics/rpc.png, id=31, 308.8338pt x 109.6095pt>
+<graphics/rpc.png, id=35, 308.8338pt x 109.6095pt>
 File: graphics/rpc.png Graphic file (type png)
 <use graphics/rpc.png>
 Package pdftex.def Info: graphics/rpc.png  used on input line 46.
@@ -1401,7 +1401,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
  on input line 57.
 
-<graphics/naming.png, id=67, 679.53876pt x 648.4225pt>
+<graphics/naming.png, id=71, 679.53876pt x 648.4225pt>
 File: graphics/naming.png Graphic file (type png)
 <use graphics/naming.png>
 Package pdftex.def Info: graphics/naming.png  used on input line 137.
@@ -1412,7 +1412,7 @@ Underfull \hbox (badness 1348) in paragraph at lines 179--179
 a-tion and Per-for-
  []
 
-<graphics/fast_path.png, id=68, 1211.52625pt x 410.53375pt>
+<graphics/fast_path.png, id=72, 1211.52625pt x 410.53375pt>
 File: graphics/fast_path.png Graphic file (type png)
 <use graphics/fast_path.png>
 Package pdftex.def Info: graphics/fast_path.png  used on input line 241.
@@ -1423,31 +1423,85 @@ een already used, duplicate ignored
                    \relax 
 l.283   \end{itemize}
                       [2 <./graphics/rpc.png> <./graphics/naming.png> <./graphi
-cs/fast_path.png>]) (./chapters/10_Communication.tex)pdfTeX warning (ext4): des
-tination with the same identifier (name{page.}) has been already used, duplicat
-e ignored
+cs/fast_path.png>]) (./chapters/10_Communication.tex)
+(./chapters/11_Data_Processing_Basics.texpdfTeX warning (ext4): destination wit
+h the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.11 \cleardoublepage
-                      [3] (./appendix/A1_system_design_principles.tex)
+l.7   \item E
+             very basic operation takes constant time [3]
+Underfull \hbox (badness 1728) in paragraph at lines 29--29
+|[]\T1/LinuxBiolinumT-TLF/b/sc/9.59998 Example for first ex-ter-nal mem-ory al-
+go-rithm: Sort-
+ []
+
+<graphics/external-msort-v1.png, id=107, 1092.08pt x 346.29375pt>
+File: graphics/external-msort-v1.png Graphic file (type png)
+<use graphics/external-msort-v1.png>
+Package pdftex.def Info: graphics/external-msort-v1.png  used on input line 65.
+
+(pdftex.def)             Requested size: 185.65114pt x 58.86916pt.
+<graphics/phase1-ex.png, id=108, 715.67375pt x 150.5625pt>
+File: graphics/phase1-ex.png Graphic file (type png)
+<use graphics/phase1-ex.png>
+Package pdftex.def Info: graphics/phase1-ex.png  used on input line 74.
+(pdftex.def)             Requested size: 143.1322pt x 30.11195pt.
+<graphics/phase2.png, id=109, 1077.02374pt x 346.29375pt>
+File: graphics/phase2.png Graphic file (type png)
+<use graphics/phase2.png>
+Package pdftex.def Info: graphics/phase2.png  used on input line 100.
+(pdftex.def)             Requested size: 193.85591pt x 62.33017pt.
+<graphics/phase2-ex.png, id=110, 844.15375pt x 652.4375pt>
+File: graphics/phase2-ex.png Graphic file (type png)
+<use graphics/phase2-ex.png>
+Package pdftex.def Info: graphics/phase2-ex.png  used on input line 112.
+(pdftex.def)             Requested size: 151.94112pt x 117.43367pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<graphics/multi-way-external-merge-sort.png, id=111, 1082.0425pt x 355.3275pt>
+File: graphics/multi-way-external-merge-sort.png Graphic file (type png)
+<use graphics/multi-way-external-merge-sort.png>
+Package pdftex.def Info: graphics/multi-way-external-merge-sort.png  used on in
+put line 155.
+(pdftex.def)             Requested size: 183.9448pt x 60.40486pt.
+<graphics/B=4.png, id=112, 1062.97125pt x 320.19624pt>
+File: graphics/B=4.png Graphic file (type png)
+<use graphics/B=4.png>
+Package pdftex.def Info: graphics/B=4.png  used on input line 168.
+(pdftex.def)             Requested size: 191.32657pt x 57.63283pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.204 ...e produce runs larger than the RAM size?}
+                                                   [4 <./graphics/external-msor
+t-v1.png> <./graphics/phase1-ex.png> <./graphics/phase2.png> <./graphics/phase2
+-ex.png> <./graphics/multi-way-external-merge-sort.png> <./graphics/B=4.png>])p
+dfTeX warning (ext4): destination with the same identifier (name{page.}) has be
+en already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.13 \cleardoublepage
+                      [5] (./appendix/A1_system_design_principles.tex)
 (./appendix/A2_common_faults.tex)
 No file main.bbl.
 No file main.bbl.
 \tf@thm=\write8
 \openout8 = `main.thm'.
 
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 16.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 18.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.16 \end{document}
-                    [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 16.
+l.18 \end{document}
+                    [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 18.
  (./main.aux)
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 16.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 18.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: ADE8FCD211177171A7113C367FE2FF86;348.
+(rerunfilecheck)             Checksum: DECABC657146A89F7DD0DC81ABE32753;435.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1455,11 +1509,11 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 30173 strings out of 483107
- 536435 string characters out of 5964630
+ 30250 strings out of 483107
+ 538217 string characters out of 5964630
  1034357 words of memory out of 5000000
- 44529 multiletter control sequences out of 15000+600000
- 618810 words of font info for 110 fonts, out of 8000000 for 9000
+ 44574 multiletter control sequences out of 15000+600000
+ 620575 words of font info for 115 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  72i,9n,99p,1193b,1160s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/libertine/lbtn_oexx6f.enc}{/us
@@ -1467,18 +1521,19 @@ r/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texlive/texm
 f-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/share/texlive/texmf-dist
 /fonts/enc/dvips/libertine/lbtn_afusau.enc}{/usr/share/texlive/texmf-dist/fonts
 /enc/dvips/libertine/lbtn_jtta5h.enc}</usr/share/texlive/texmf-dist/fonts/type1
-/public/newtx/LibertineMathMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/libertine/LinBiolinumT.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/libertine/LinBiolinumTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/libertine/LinBiolinumTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/newtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (4 pages, 397959 bytes).
+/public/newtx/LibertineMathMI5.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/newtx/LibertineMathMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/libertine/LinBiolinumT.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/libertine/LinBiolinumTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/libertine/LinBiolinumTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/n
+ewtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on main.pdf (6 pages, 572759 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
- 54 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 198 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
+ 72 named destinations out of 1000 (max. 500000)
+ 114 words of extra memory for PDF output out of 10000 (max. 10000000)
 
