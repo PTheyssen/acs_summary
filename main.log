@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.7)  9 JAN 2022 12:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.7)  9 JAN 2022 14:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1495,102 +1495,117 @@ File: graphics/WW-conflicts.png Graphic file (type png)
 <use graphics/WW-conflicts.png>
 Package pdftex.def Info: graphics/WW-conflicts.png  used on input line 428.
 (pdftex.def)             Requested size: 189.55pt x 24.69118pt.
-) (./chapters/10_Communication.texpdfTeX warning (ext4): destination with the s
-ame identifier (name{page.}) has been already used, duplicate ignored
+) (./chapters/04_Concurrency_Control_2.tex
+<graphics/not-conflict-serializable.png, id=138, 1249.66875pt x 344.28625pt>
+File: graphics/not-conflict-serializable.png Graphic file (type png)
+<use graphics/not-conflict-serializable.png>
+Package pdftex.def Info: graphics/not-conflict-serializable.png  used on input 
+line 23.
+(pdftex.def)             Requested size: 187.44221pt x 51.6407pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 \item S
-            ynchronous [4 <./graphics/2PL.png> <./graphics/DB_granularity.png> 
-<./graphics/intention-locks.png> <./graphics/schedule-1.png> <./graphics/schedu
-le-2.png> <./graphics/WR-conflicts.png> <./graphics/RW-conflicts.png> <./graphi
-cs/WW-conflicts.png>]) (./chapters/11_Data_Processing_Basics.tex
+l.61   \item D
+              eadlock prevention [4 <./graphics/2PL.png> <./graphics/DB_granula
+rity.png> <./graphics/intention-locks.png> <./graphics/schedule-1.png> <./graph
+ics/schedule-2.png> <./graphics/WR-conflicts.png> <./graphics/RW-conflicts.png>
+ <./graphics/WW-conflicts.png> <./graphics/not-conflict-serializable.png>]
+<graphics/Test-1.png, id=159, 1131.22626pt x 317.185pt>
+File: graphics/Test-1.png Graphic file (type png)
+<use graphics/Test-1.png>
+Package pdftex.def Info: graphics/Test-1.png  used on input line 149.
+(pdftex.def)             Requested size: 169.6766pt x 47.57568pt.
+<graphics/Test-2.png, id=160, 984.67876pt x 256.96pt>
+File: graphics/Test-2.png Graphic file (type png)
+<use graphics/Test-2.png>
+Package pdftex.def Info: graphics/Test-2.png  used on input line 160.
+(pdftex.def)             Requested size: 147.69543pt x 38.54233pt.
+<graphics/Test-3.png, id=161, 939.51pt x 232.87pt>
+File: graphics/Test-3.png Graphic file (type png)
+<use graphics/Test-3.png>
+Package pdftex.def Info: graphics/Test-3.png  used on input line 172.
+(pdftex.def)             Requested size: 140.92041pt x 34.92899pt.
+)
+(./chapters/10_Communication.texpdfTeX warning (ext4): destination with the sam
+e identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.102 \item S
+             ynchronous vs. Asynchronous [5 <./graphics/Test-1.png> <./graphics
+/Test-2.png> <./graphics/Test-3.png>])
+(./chapters/11_Data_Processing_Basics.tex
 Underfull \hbox (badness 1728) in paragraph at lines 29--29
 |[]\T1/LinuxBiolinumT-TLF/b/sc/9.59998 Example for first ex-ter-nal mem-ory al-
 go-rithm: Sort-
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.55 \item W
-            rite it to disk as one temporary file (called ``run'') [5]
-<graphics/external-msort-v1.png, id=175, 1092.08pt x 346.29375pt>
+<graphics/external-msort-v1.png, id=183, 1092.08pt x 346.29375pt>
 File: graphics/external-msort-v1.png Graphic file (type png)
 <use graphics/external-msort-v1.png>
 Package pdftex.def Info: graphics/external-msort-v1.png  used on input line 65.
 
 (pdftex.def)             Requested size: 185.65114pt x 58.86916pt.
-<graphics/phase1-ex.png, id=176, 715.67375pt x 150.5625pt>
+<graphics/phase1-ex.png, id=184, 715.67375pt x 150.5625pt>
 File: graphics/phase1-ex.png Graphic file (type png)
 <use graphics/phase1-ex.png>
 Package pdftex.def Info: graphics/phase1-ex.png  used on input line 74.
 (pdftex.def)             Requested size: 143.1322pt x 30.11195pt.
-<graphics/phase2.png, id=177, 1077.02374pt x 346.29375pt>
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.91 \item P
+            ass 1: Merge two runs of length 1 (page) [6 <./graphics/external-ms
+ort-v1.png> <./graphics/phase1-ex.png>]
+<graphics/phase2.png, id=203, 1077.02374pt x 346.29375pt>
 File: graphics/phase2.png Graphic file (type png)
 <use graphics/phase2.png>
 Package pdftex.def Info: graphics/phase2.png  used on input line 100.
 (pdftex.def)             Requested size: 193.85591pt x 62.33017pt.
-<graphics/phase2-ex.png, id=178, 844.15375pt x 652.4375pt>
+<graphics/phase2-ex.png, id=204, 844.15375pt x 652.4375pt>
 File: graphics/phase2-ex.png Graphic file (type png)
 <use graphics/phase2-ex.png>
 Package pdftex.def Info: graphics/phase2-ex.png  used on input line 112.
 (pdftex.def)             Requested size: 151.94112pt x 117.43367pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<graphics/multi-way-external-merge-sort.png, id=179, 1082.0425pt x 355.3275pt>
+<graphics/multi-way-external-merge-sort.png, id=205, 1082.0425pt x 355.3275pt>
 File: graphics/multi-way-external-merge-sort.png Graphic file (type png)
 <use graphics/multi-way-external-merge-sort.png>
 Package pdftex.def Info: graphics/multi-way-external-merge-sort.png  used on in
 put line 155.
 (pdftex.def)             Requested size: 183.9448pt x 60.40486pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<graphics/B=4.png, id=180, 1062.97125pt x 320.19624pt>
+<graphics/B=4.png, id=206, 1062.97125pt x 320.19624pt>
 File: graphics/B=4.png Graphic file (type png)
 <use graphics/B=4.png>
 Package pdftex.def Info: graphics/B=4.png  used on input line 168.
 (pdftex.def)             Requested size: 191.32657pt x 57.63283pt.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.204 ...e produce runs larger than the RAM size?}
-                                                   [6 <./graphics/external-msor
-t-v1.png> <./graphics/phase1-ex.png> <./graphics/phase2.png> <./graphics/phase2
--ex.png> <./graphics/multi-way-external-merge-sort.png>]
-
-LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 204.
 
 )pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.16 \cleardoublepage
-                      [7 <./graphics/B=4.png>]
+l.17 \cleardoublepage
+                      [7 <./graphics/phase2.png> <./graphics/phase2-ex.png> <./
+graphics/multi-way-external-merge-sort.png> <./graphics/B=4.png>]
 (./appendix/A1_system_design_principles.tex) (./appendix/A2_common_faults.tex)
 No file main.bbl.
 No file main.bbl.
 \tf@thm=\write8
 \openout8 = `main.thm'.
 
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 21.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 22.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.21 \end{document}
+l.22 \end{document}
                     [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 21.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 22.
  (./main.aux)
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 21.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 22.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A202F1A71E66207F112A7913316B2E76;489.
 
@@ -1600,10 +1615,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 30586 strings out of 483107
- 543053 string characters out of 5964630
+ 30630 strings out of 483107
+ 544106 string characters out of 5964630
  1034357 words of memory out of 5000000
- 44850 multiletter control sequences out of 15000+600000
+ 44872 multiletter control sequences out of 15000+600000
  620575 words of font info for 115 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  72i,9n,99p,1193b,1160s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1618,13 +1633,14 @@ lic/libertine/LinBiolinumT.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
 c/libertine/LinBiolinumTB.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /libertine/LinBiolinumTI.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 libertine/LinLibertineT.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/n
-ewtx/txmiaX.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on main.pdf (8 pages, 727881 bytes).
+ewtx/NewTXMI7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txmia
+X.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on main.pdf (8 pages, 779281 bytes).
 PDF statistics:
- 274 PDF objects out of 1000 (max. 8388607)
- 230 compressed objects within 3 object streams
- 115 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 299 PDF objects out of 1000 (max. 8388607)
+ 250 compressed objects within 3 object streams
+ 130 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
