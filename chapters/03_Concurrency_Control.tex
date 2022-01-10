@@ -369,9 +369,9 @@ Consider two transactions (Xacts):
   \begin{itemize}
   \item Allow Xacts to lock at each level, but with a
     special protocol using new \textbf{``intention'' locks}
-  \item before locking and item, Xact must set ``intention locks''
-    on all its ancestors
-  \item for unlock, go from specific to general
+  \item before locking and item, Xact must set \\
+    ``intention locks'' on all its ancestors
+  \item for unlock, go from specific to general \\
     (i.e., bottom-up)
   \item \textbf{SIX mode:} like S \& IX at the same time
   \end{itemize}
@@ -426,7 +426,6 @@ Consider two transactions (Xacts):
 \item Overwriting Uncommitted Data (WW Conflicts)
 
   \includegraphics[scale=0.15]{graphics/WW-conflicts.png}
-
 \end{itemize}
 
 % LocalWords:  Atomicity atomicity modularity Serializability Xacts

@@ -2,7 +2,8 @@
 \BOOKMARK [1][-]{section.2}{Modularity through Clients and Services, RPC}{}% 2
 \BOOKMARK [1][-]{section.3}{Techniques for Performance}{}% 3
 \BOOKMARK [1][-]{section.4}{Concurrency Control}{}% 4
-\BOOKMARK [1][-]{section.5}{Communication}{}% 5
-\BOOKMARK [1][-]{section.6}{Data Processing: Basic Concepts and External Sorting}{}% 6
-\BOOKMARK [1][-]{section.7}{System Design Principles}{}% 7
-\BOOKMARK [1][-]{section.8}{Common Faults, Misc}{}% 8
+\BOOKMARK [1][-]{section.5}{Experimental Design}{}% 5
+\BOOKMARK [1][-]{section.6}{Communication}{}% 6
+\BOOKMARK [1][-]{section.7}{Data Processing: Basic Concepts and External Sorting}{}% 7
+\BOOKMARK [1][-]{section.8}{System Design Principles}{}% 8
+\BOOKMARK [1][-]{section.9}{Common Faults, Misc}{}% 9
