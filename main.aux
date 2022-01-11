@@ -101,47 +101,63 @@
 \@writefile{toc}{\contentsline {paragraph}{\numberline {o}More on Steal and Force}{}{paragraph.5.0.0.15}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{\numberline {p}Basic Idea: Logging}{}{paragraph.5.0.0.16}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{\numberline {q}Write-Ahead Logging (WAL)}{}{paragraph.5.0.0.17}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {VI}Communication}{}{section.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {a}Learning goals}{}{paragraph.6.0.0.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {b}Partitioning}{}{paragraph.6.0.0.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {c}Recall: Protocols and Layering in the Internet}{}{paragraph.6.0.0.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {d}Recall: Layers in Hosts and Routers}{}{paragraph.6.0.0.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {e}Different Type of Communication}{}{paragraph.6.0.0.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {f}RPC}{}{paragraph.6.0.0.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {g}Message-Oriented}{}{paragraph.6.0.0.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {h}Message-Oriented Persistent Communication}{}{paragraph.6.0.0.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {i}Queue Interface}{}{paragraph.6.0.0.9}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {j}How to Employ Queues to Decouple System}{}{paragraph.6.0.0.10}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {k}The CAP theorem}{}{paragraph.6.0.0.11}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {l}ACID}{}{paragraph.6.0.0.12}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {m}BASE}{}{paragraph.6.0.0.13}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {n}A BASE Scenario}{}{paragraph.6.0.0.14}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {o}Other Types of Communication Abstractions}{}{paragraph.6.0.0.15}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {p}Gossip}{}{paragraph.6.0.0.16}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {VII}Data Processing: Basic Concepts and External Sorting}{}{section.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {a}Different Cost Models for Algorithms}{}{paragraph.7.0.0.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {b}Example for first external memory algorithm: Sorting}{}{paragraph.7.0.0.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {c}Example: Sorting}{}{paragraph.7.0.0.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {d}2-Way External Merge Sort: Phase 1}{}{paragraph.7.0.0.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {e}Phase 1: Example}{}{paragraph.7.0.0.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {f}2-Way External Merge Sort: Phase 2}{}{paragraph.7.0.0.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {g}2-Way External Merge Sort: Example}{}{paragraph.7.0.0.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {h}2-Way External Merge Sort: Analysis}{}{paragraph.7.0.0.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {i}Can we do better?}{}{paragraph.7.0.0.9}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {j}Multi-Way External Merge Sort}{}{paragraph.7.0.0.10}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {k}2-Way External Merge Sort: Example}{}{paragraph.7.0.0.11}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {l}Multi-Way External Merge Sort Phase 2}{}{paragraph.7.0.0.12}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {m}Multi-Way External Merge Sort: Analysis}{}{paragraph.7.0.0.13}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {n}Can we produce runs larger than the RAM size?}{}{paragraph.7.0.0.14}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {o}More on Heapsort}{}{paragraph.7.0.0.15}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {p}External Merge Sort: Possible Optimizations}{}{paragraph.7.0.0.16}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {q}Key Points (External Sorting)}{}{paragraph.7.0.0.17}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {r}Recovery Equations}{}{paragraph.5.0.0.18}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Recovery: Basic Concepts, ARIES}{}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {a}WAL \& the Log}{}{paragraph.6.0.0.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {b}Log Records}{}{paragraph.6.0.0.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {c}Other Log-Related State}{}{paragraph.6.0.0.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {d}Normal Execution of an Xact}{}{paragraph.6.0.0.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {e}The Big Picture: What's Stored Where}{}{paragraph.6.0.0.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {f}Checkpointing}{}{paragraph.6.0.0.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {g}Transaction Commit}{}{paragraph.6.0.0.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {h}Simple Transaction Abort}{}{paragraph.6.0.0.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {i}Example}{}{paragraph.6.0.0.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {j}Crash Recovery: Big Picture}{}{paragraph.6.0.0.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {k}Recovery: The Analysis Phase}{}{paragraph.6.0.0.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {l}Recovery: The REDO Phase}{}{paragraph.6.0.0.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {m}Recovery: The UNDO Phase}{}{paragraph.6.0.0.13}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {n}Example Recovery: Notes}{}{paragraph.6.0.0.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Communication}{}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {a}Learning goals}{}{paragraph.7.0.0.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {b}Partitioning}{}{paragraph.7.0.0.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {c}Recall: Protocols and Layering in the Internet}{}{paragraph.7.0.0.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {d}Recall: Layers in Hosts and Routers}{}{paragraph.7.0.0.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {e}Different Type of Communication}{}{paragraph.7.0.0.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {f}RPC}{}{paragraph.7.0.0.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {g}Message-Oriented}{}{paragraph.7.0.0.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {h}Message-Oriented Persistent Communication}{}{paragraph.7.0.0.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {i}Queue Interface}{}{paragraph.7.0.0.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {j}How to Employ Queues to Decouple System}{}{paragraph.7.0.0.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {k}The CAP theorem}{}{paragraph.7.0.0.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {l}ACID}{}{paragraph.7.0.0.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {m}BASE}{}{paragraph.7.0.0.13}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {n}A BASE Scenario}{}{paragraph.7.0.0.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {o}Other Types of Communication Abstractions}{}{paragraph.7.0.0.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {p}Gossip}{}{paragraph.7.0.0.16}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VIII}Data Processing: Basic Concepts and External Sorting}{}{section.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {a}Different Cost Models for Algorithms}{}{paragraph.8.0.0.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {b}Example for first external memory algorithm: Sorting}{}{paragraph.8.0.0.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {c}Example: Sorting}{}{paragraph.8.0.0.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {d}2-Way External Merge Sort: Phase 1}{}{paragraph.8.0.0.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {e}Phase 1: Example}{}{paragraph.8.0.0.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {f}2-Way External Merge Sort: Phase 2}{}{paragraph.8.0.0.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {g}2-Way External Merge Sort: Example}{}{paragraph.8.0.0.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {h}2-Way External Merge Sort: Analysis}{}{paragraph.8.0.0.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {i}Can we do better?}{}{paragraph.8.0.0.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {j}Multi-Way External Merge Sort}{}{paragraph.8.0.0.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {k}2-Way External Merge Sort: Example}{}{paragraph.8.0.0.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {l}Multi-Way External Merge Sort Phase 2}{}{paragraph.8.0.0.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {m}Multi-Way External Merge Sort: Analysis}{}{paragraph.8.0.0.13}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {n}Can we produce runs larger than the RAM size?}{}{paragraph.8.0.0.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {o}More on Heapsort}{}{paragraph.8.0.0.15}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {p}External Merge Sort: Possible Optimizations}{}{paragraph.8.0.0.16}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {q}Key Points (External Sorting)}{}{paragraph.8.0.0.17}\protected@file@percent }
 \bibdata{mainNotes}
 \bibdata{mainNotes}
 \bibstyle{aipnum4-1}
 \citation{REVTEX41Control}
 \citation{aip41Control}
-\@writefile{toc}{\contentsline {section}{\numberline {VIII}System Design Principles}{}{section.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{\numberline {a}Design principles applicable to many areas}{}{paragraph.8.0.0.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {IX}Common Faults, Misc}{}{section.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {IX}System Design Principles}{}{section.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {a}Design principles applicable to many areas}{}{paragraph.9.0.0.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {X}Common Faults, Misc}{}{section.10}\protected@file@percent }
 \newlabel{LastPage}{{}{}{}{}{}}
