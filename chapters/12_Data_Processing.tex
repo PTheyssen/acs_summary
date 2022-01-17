@@ -308,12 +308,81 @@ main issue duplicate elimination
     FROM Reserves R1, Sailors S1
     WHERE R1.sid=S1.sid
   \end{lstlisting}
-  
+
 \end{itemize}
 
 \paragraph{Simple Nested Loops Join}
 
 \includegraphics[scale=0.2]{graphics/nested-loop-join.png}
 
+\begin{itemize}
+\item Suppose R has 1000 pages, S has 500 pages, and each
+  page (of R and S) has 100 tuples
+\item Cost = |R| + ($|\{$tuples in R$\}|$ $\cdot$ |R|) $\cdot$ |S|
+  = 1000 + 100 $\cdot$ 1000 $\cdot$ 500 IOs
+  \begin{itemize}
+  \item at 10 ms/IO this takes around 6 days!
+  \end{itemize}
+\end{itemize}
+
+\paragraph{Page-Oriented Nested Loops Join}
+
+\includegraphics[scale=0.2]{graphics/page-oriented-nested-loop-join.png}
+
+\begin{itemize}
+\item Cost = |R| $\cdot$ |S| + |R| = 1000 $\cdot$ 500 + 1000
+\item If smaller relation (S) is outer,
+  cost = 500 $\cdot$ 1000 + 500
+\item Much better than naive per-tuple approach!
+  \begin{itemize}
+  \item at 10 ms/IO, total time ≈ 1.4 hour
+  \end{itemize}
+\item the trick is to reduce the \# of complete reads of the inner table
+\end{itemize}
+
+\paragraph{Block Nested Loops Join}
+\begin{itemize}
+\item Page-oriented NL does not exploit extra buffers
+\item Idea to use memory efficiently:
+
+  \includegraphics[scale=0.15]{graphics/block-nested-loop-join.png}
+
+\item \textbf{Cost:} Scan out + (\#outer blocks $\cdot$ scan inner) \\
+  where \#outer blocks =
+  $\lceil$ \# of pages of outer / blocksize $\rceil$
+\end{itemize}
+
+\paragraph{Examples of Block Nested Loops Join}
+\begin{itemize}
+\item Say we have B = 100 + 2 memory buffers
+\item Join cost = |outer| + (\#outer blocks $\cdot$ |inner|)
+  \begin{itemize}
+  \item \#outer blocks = |outer| / 100
+  \end{itemize}
+
+\item With R as outer (|R| = 1000):
+  \begin{itemize}
+  \item Scanning R costs 1000 IO's (done in 10 blocks)
+  \item Per block of R, we scan S; costs 10 $\cdot$ 500 I/Os
+  \item Total = 1000 + 10 $\cdot$ 500
+  \item At 10 ms/IO total time: ≈ 1 minute
+  \end{itemize}
+
+\item With S as outer (|S| = 500):
+  \begin{itemize}
+  \item Scanning S costs 500 IO's (done in 5 blocks)
+  \item Per block of S, we scan R; costs 5 $\cdot$ 1000 IO's
+  \item Total = 500 + 5 $\cdot$ 1000
+  \item At 10 ms/IO, total time: ≈ 55 seconds
+  \end{itemize}
+\end{itemize}
+
+\paragraph{Index Nested Loops Join}
+Instead of scanning in inner loop simply do lookup:
+
+\includegraphics[scale=0.2]{graphics/index-nested-loop-join.png}
+
+
 % LocalWords:  Unclustered unclustered superset goto ReHash Recurse
-% LocalWords:  pipelining sqrt recurse parallelizable IOs
+% LocalWords:  pipelining sqrt recurse parallelizable IOs NL IO's
+% LocalWords:  blocksize
